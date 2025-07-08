@@ -27,6 +27,8 @@ if (typeof data === "string") {
 
   console.log(data ? "Sì" : "No");
 
+} else {
+  console.log("Tipo non supportato")
 }
 
 console.log(data);
